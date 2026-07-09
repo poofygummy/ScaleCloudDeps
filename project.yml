@@ -55,123 +55,25 @@ packages:
     url: https://github.com/SwiftPackageIndex/SemanticVersion.git
     exactVersion: 0.3.8
 
+# No wrapper targets needed — the workflow builds each SPM package's own
+# scheme directly from the resolved packages using a stub host target.
 targets:
-  Alamofire:
+  SCDepsHost:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources:
-      - Sources/Alamofire
+    sources: []
     settings:
       base:
-        PRODUCT_NAME: Alamofire
-        DEFINES_MODULE: "YES"
+        PRODUCT_NAME: SCDepsHost
         BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
         SKIP_INSTALL: "NO"
     dependencies:
       - package: Alamofire
-
-  SwiftyJSON:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/SwiftyJSON
-    settings:
-      base:
-        PRODUCT_NAME: SwiftyJSON
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: SwiftyJSON
-
-  SwiftyXMLParser:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/SwiftyXMLParser
-    settings:
-      base:
-        PRODUCT_NAME: SwiftyXMLParser
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: SwiftyXMLParser
-
-  KeychainAccess:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/KeychainAccess
-    settings:
-      base:
-        PRODUCT_NAME: KeychainAccess
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: KeychainAccess
-
-  Starscream:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/Starscream
-    settings:
-      base:
-        PRODUCT_NAME: Starscream
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: Starscream
-
-  ZIPFoundation:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/ZIPFoundation
-    settings:
-      base:
-        PRODUCT_NAME: ZIPFoundation
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: ZIPFoundation
-
-  Nuke:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/Nuke
-    settings:
-      base:
-        PRODUCT_NAME: Nuke
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: Nuke
-
-  SemanticVersion:
-    type: framework
-    platform: iOS
-    deploymentTarget: "14.0"
-    sources:
-      - Sources/SemanticVersion
-    settings:
-      base:
-        PRODUCT_NAME: SemanticVersion
-        DEFINES_MODULE: "YES"
-        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
-        SKIP_INSTALL: "NO"
-    dependencies:
       - package: SemanticVersion
