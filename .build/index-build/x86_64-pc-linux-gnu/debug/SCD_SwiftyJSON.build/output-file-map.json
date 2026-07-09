@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SCD_SwiftyJSON.build/master.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/Sources/SwiftyJSON/Reexport.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SCD_SwiftyJSON.build/Reexport.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SCD_SwiftyJSON.build/Reexport.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SCD_SwiftyJSON.build/Reexport~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SCD_SwiftyJSON.build/Reexport.swiftdeps"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/master.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+BackingConfiguration.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+BackingConfiguration.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+BackingConfiguration.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+BackingConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+BackingConfiguration.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Deprecated.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Deprecated.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Deprecated.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Deprecated.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Helpers.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Helpers.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Helpers.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Helpers~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Helpers.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+MemoryFile.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+MemoryFile.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+MemoryFile.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+MemoryFile~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+MemoryFile.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Progress.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Progress.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Progress.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Progress~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Progress.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Reading.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Reading.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Reading.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Reading~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Reading.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+ReadingDeprecated.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ReadingDeprecated.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ReadingDeprecated.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ReadingDeprecated~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ReadingDeprecated.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+Writing.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Writing.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Writing.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Writing~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+Writing.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+WritingDeprecated.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+WritingDeprecated.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+WritingDeprecated.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+WritingDeprecated~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+WritingDeprecated.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive+ZIP64.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ZIP64.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ZIP64.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ZIP64~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive+ZIP64.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Archive.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Archive.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Data+Compression.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Compression.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Compression.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Compression~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Compression.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Data+CompressionDeprecated.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+CompressionDeprecated.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+CompressionDeprecated.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+CompressionDeprecated~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+CompressionDeprecated.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Data+Serialization.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Serialization.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Serialization.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Serialization~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Data+Serialization.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Date+ZIP.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Date+ZIP.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Date+ZIP.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Date+ZIP~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Date+ZIP.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+Serialization.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+Serialization.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+Serialization.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+Serialization~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+Serialization.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry+ZIP64.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+ZIP64.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+ZIP64.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+ZIP64~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry+ZIP64.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/Entry.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/Entry.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIP.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIP.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIP~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIP.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIPDeprecated.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIPDeprecated.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIPDeprecated.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIPDeprecated~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/FileManager+ZIPDeprecated.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/ZIPFoundation/Sources/ZIPFoundation/URL+ZIP.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/URL+ZIP.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/URL+ZIP.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/URL+ZIP~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/ZIPFoundation.build/URL+ZIP.swiftdeps"
+  }
+}

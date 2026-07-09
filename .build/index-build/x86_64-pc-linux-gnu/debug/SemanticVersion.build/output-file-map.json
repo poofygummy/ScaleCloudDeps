@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/master.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/SemanticVersion/Sources/SemanticVersion/NSRegularExpression+ext.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/NSRegularExpression+ext.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/NSRegularExpression+ext.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/NSRegularExpression+ext~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/NSRegularExpression+ext.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/checkouts/SemanticVersion/Sources/SemanticVersion/SemanticVersion.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/SemanticVersion.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/SemanticVersion.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/SemanticVersion~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/SemanticVersion.swiftdeps"
+  },
+  "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/resource_bundle_accessor.d",
+    "object": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/home/cvt/scalecloud-ios/ScaleCloudDeps/.build/index-build/x86_64-pc-linux-gnu/debug/SemanticVersion.build/resource_bundle_accessor.swiftdeps"
+  }
+}
