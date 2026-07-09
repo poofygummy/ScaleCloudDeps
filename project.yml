@@ -60,7 +60,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/Alamofire
     settings:
       base:
         PRODUCT_NAME: Alamofire
@@ -74,7 +75,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/SwiftyJSON
     settings:
       base:
         PRODUCT_NAME: SwiftyJSON
@@ -88,7 +90,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/SwiftyXMLParser
     settings:
       base:
         PRODUCT_NAME: SwiftyXMLParser
@@ -102,7 +105,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/KeychainAccess
     settings:
       base:
         PRODUCT_NAME: KeychainAccess
@@ -116,7 +120,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/Starscream
     settings:
       base:
         PRODUCT_NAME: Starscream
@@ -130,7 +135,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/ZIPFoundation
     settings:
       base:
         PRODUCT_NAME: ZIPFoundation
@@ -144,7 +150,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/Nuke
     settings:
       base:
         PRODUCT_NAME: Nuke
@@ -158,7 +165,8 @@ targets:
     type: framework
     platform: iOS
     deploymentTarget: "14.0"
-    sources: []
+    sources:
+      - Sources/SemanticVersion
     settings:
       base:
         PRODUCT_NAME: SemanticVersion
