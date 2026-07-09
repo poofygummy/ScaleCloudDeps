@@ -1,0 +1,169 @@
+# SPDX-FileCopyrightText: 2026 Nextcloud GmbH and Nextcloud contributors
+# SPDX-License-Identifier: GPL-2.0-or-later
+#
+# ScaleCloudDeps — builds every shared SPM dependency that is used by two or
+# more of (ScaleCloudKit, ScaleCloudRenew, ScaleCloudApp) as a single dynamic
+# framework.  Only one copy ends up in the final .app bundle, eliminating the
+# ObjC duplicate-class collisions that previously caused SIGKILL at launch.
+#
+# Pattern:
+#   ScaleCloudKit  / ScaleCloudRenew  → link with embed: false
+#   ScaleCloudApp                     → embed: true  (the one copy in Frameworks/)
+#
+# Packages contained here:
+#   Alamofire        — Kit + Renew + App source (23 import sites)
+#   SwiftyJSON       — Kit + Renew + App source (3 import sites)
+#   SwiftyXMLParser  — Kit + Renew
+#   KeychainAccess   — Renew + App source (1 import site)
+#   Starscream       — Renew
+#   ZIPFoundation    — Renew
+#   Nuke             — Renew
+#   SemanticVersion  — Renew
+
+name: ScaleCloudDeps
+options:
+  xcodeVersion: "15.4"
+  minimumXcodeVersion: "15.4"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "14.0"
+
+packages:
+  Alamofire:
+    url: https://github.com/Alamofire/Alamofire.git
+    from: 5.10.2
+  SwiftyJSON:
+    url: https://github.com/SwiftyJSON/SwiftyJSON.git
+    from: 5.0.2
+  SwiftyXMLParser:
+    url: https://github.com/yahoojapan/SwiftyXMLParser.git
+    from: 5.6.0
+  KeychainAccess:
+    url: https://github.com/kishikawakatsuki/KeychainAccess.git
+    from: 4.2.0
+  Starscream:
+    url: https://github.com/daltoniam/Starscream.git
+    from: 4.0.0
+  ZIPFoundation:
+    url: https://github.com/weichsel/ZIPFoundation.git
+    from: 0.9.0
+  Nuke:
+    url: https://github.com/kean/Nuke.git
+    from: 10.0.0
+  SemanticVersion:
+    url: https://github.com/SwiftPackageIndex/SemanticVersion.git
+    exactVersion: 0.3.8
+
+targets:
+  Alamofire:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: Alamofire
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: Alamofire
+
+  SwiftyJSON:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: SwiftyJSON
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: SwiftyJSON
+
+  SwiftyXMLParser:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: SwiftyXMLParser
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: SwiftyXMLParser
+
+  KeychainAccess:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: KeychainAccess
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: KeychainAccess
+
+  Starscream:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: Starscream
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: Starscream
+
+  ZIPFoundation:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: ZIPFoundation
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: ZIPFoundation
+
+  Nuke:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: Nuke
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: Nuke
+
+  SemanticVersion:
+    type: framework
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources: []
+    settings:
+      base:
+        PRODUCT_NAME: SemanticVersion
+        DEFINES_MODULE: "YES"
+        BUILD_LIBRARY_FOR_DISTRIBUTION: "YES"
+        SKIP_INSTALL: "NO"
+    dependencies:
+      - package: SemanticVersion
