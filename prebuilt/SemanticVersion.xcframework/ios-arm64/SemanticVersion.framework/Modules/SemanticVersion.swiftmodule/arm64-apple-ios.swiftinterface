@@ -1,0 +1,72 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.2 effective-5.10 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -swift-version 5 -Onone -enable-experimental-feature DebugDescriptionMacro -module-name SemanticVersion
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.2
+import Foundation
+import Foundation/*.Bundle*/
+import Foundation/*.ProcessInfo*/
+import Foundation/*.URL*/
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct SemanticVersion : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public var major: Swift.Int
+  public var minor: Swift.Int
+  public var patch: Swift.Int
+  public var preRelease: Swift.String
+  public var build: Swift.String
+  public init(_ major: Swift.Int, _ minor: Swift.Int, _ patch: Swift.Int, _ preRelease: Swift.String = "", _ build: Swift.String = "")
+  public enum PreReleaseIdentifier : Swift.Equatable {
+    case alphanumeric(Swift.String)
+    case numeric(Swift.Int)
+    @_semantics("derived_enum_equals") @_implements(Swift.Equatable, ==(_:_:)) public static func __derived_enum_equals(_ a: SemanticVersion.SemanticVersion.PreReleaseIdentifier, _ b: SemanticVersion.SemanticVersion.PreReleaseIdentifier) -> Swift.Bool
+  }
+  @_implements(Swift.Equatable, ==(_:_:)) public static func __derived_struct_equals(_ a: SemanticVersion.SemanticVersion, _ b: SemanticVersion.SemanticVersion) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension SemanticVersion.SemanticVersion : Swift.LosslessStringConvertible {
+  public init?(_ string: Swift.String)
+  public var description: Swift.String {
+    get
+  }
+}
+extension SemanticVersion.SemanticVersion : Swift.Comparable {
+  public static func < (lhs: SemanticVersion.SemanticVersion, rhs: SemanticVersion.SemanticVersion) -> Swift.Bool
+}
+extension SemanticVersion.SemanticVersion {
+  public var isStable: Swift.Bool {
+    get
+  }
+  public var isPreRelease: Swift.Bool {
+    get
+  }
+  public var isMajorRelease: Swift.Bool {
+    get
+  }
+  public var isMinorRelease: Swift.Bool {
+    get
+  }
+  public var isPatchRelease: Swift.Bool {
+    get
+  }
+  public var isInitialRelease: Swift.Bool {
+    get
+  }
+  public var preReleaseIdentifiers: [SemanticVersion.SemanticVersion.PreReleaseIdentifier] {
+    get
+  }
+}
+extension SemanticVersion.SemanticVersion.PreReleaseIdentifier : Swift.Comparable {
+  public static func < (lhs: SemanticVersion.SemanticVersion.PreReleaseIdentifier, rhs: SemanticVersion.SemanticVersion.PreReleaseIdentifier) -> Swift.Bool
+}
+extension Swift.Array : Swift.Comparable where Element == SemanticVersion.SemanticVersion.PreReleaseIdentifier {
+  public static func < (lhs: Swift.Array<Element>, rhs: Swift.Array<Element>) -> Swift.Bool
+}
+extension SemanticVersion.SemanticVersion : Swift.Sendable {
+}
